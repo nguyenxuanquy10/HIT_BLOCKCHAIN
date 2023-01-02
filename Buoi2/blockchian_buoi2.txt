@@ -1,0 +1,9 @@
+1. cơ chế đồng thuận 
+1.1 proof of work and stack of stack  
+block : structure 
+4. eth mainet 
+Goerli faucet 
+chữ ký ecdsa và địa chỉ 
+public key va private key 
+IPFS 
+

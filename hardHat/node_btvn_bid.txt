@@ -1,0 +1,13 @@
+
+
+1. bid by token 
+2. innit 100 tokens 
+	item as secure ( mục an toàn trong hợp đồng thông minh ) 
+
+id of bidder , 
+id of own bidder ; 
+properities : init token , 
+smart contract : step bider: start price and minimum price 
+number of bidded ; 
+
+function : dat gia , init

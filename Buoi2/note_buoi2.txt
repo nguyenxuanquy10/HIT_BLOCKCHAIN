@@ -1,0 +1,9 @@
+1. proof of stacke : ( etherum ) cải tiến cơ chế đồng thuật 
+2. proof of work: lâu , phí cao, các node phải tranh nhau , biểu tượng 
+giống như block chain 
+3. tim fhieeur proof of work
+4.solidity  ngon ngu cho etherum 
+5.solana ngon ngu cho rust 
+6. ide for solidity : remix project
+7. Mã hóa bất đồng bộ 
+8. eleptic curve

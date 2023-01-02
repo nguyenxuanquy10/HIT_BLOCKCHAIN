@@ -1,0 +1,5 @@
+token 2 loai 
+fungible token : co the thay the 
+non-fungible token : NFT  khong the thay the 
+user and contract : user has two key , contract has just public key 
+
