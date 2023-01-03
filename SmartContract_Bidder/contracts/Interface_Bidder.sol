@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-interface InterfaceBidder {
+interface IFBidder {
     /*
      * @dev register account of new bidder to Auction
      */
-    function register(address account, uint256 _token) external;
+    function register(uint8 _token) external;
 
     /*
      * @dev init state "started" of Auction
