@@ -133,10 +133,6 @@ contract Bidder is IFBidder {
             totalDeposit -= depositOfBidder;
             bidders[addBidder].deposit = 0;
             bidders[addBidder].token += depositOfBidder;
-            state = State.CLOSED;
-            announcementTimes = 0;
-            currentPrice = 0;
-            currentWinner = address(0);
         }
         else{
             revert("Can not get your deposit");
@@ -144,10 +140,10 @@ contract Bidder is IFBidder {
     }
 
     
-    function getOwner() public view onlyOwner returns (address){
-        return auctioneer;
-    }
     function stopAuction() public onlyOwner{
          state = State.CLOSED; 
+         announcementTimes = 0;
+         currentPrice = 0;
+         currentWinner = address(0);
     }
 }
